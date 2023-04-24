@@ -1,0 +1,226 @@
+<!-- 
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Pho An Ninh
+ID: s3978162
+Acknowledgement: 
+The footer was created side by side by learning the tutotial from youtube Sagar Developer: https://www.youtube.com/watch?v=mjvOlyeS2PQ
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0e53af926d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ninh's Bookstore</title>
+  </head>
+  <body>
+
+    <!-- header -->
+
+    <header>
+      <div class="header-container">
+        <h1>NINH'S BOOKSTORE</h1>
+        <nav class="navbar">
+          <input type='checkbox' id='check'/>
+          <span class="menu">
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="fiction.html">FICTION</a></li>
+            <li><a href="non-fiction.html">NON-FICTION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+          </span>
+        </nav>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </div>
+    </header>
+
+    <main>
+      
+      <!-- showcase -->
+
+      <section id="home" class="showcase">
+        <div class="showcase-content">
+          <h2>Welcome to Ninh's Bookstore</h2>
+          <p>
+           We have every books in the world
+          </p>
+          <a href="#about"><button>EXPLORE</button></a>
+        </div>
+      </section>
+
+      <!-- about -->
+
+      <section id="about" class="about">
+        <h2 class="about-text">ABOUT THE BOOKSTORE</h2>
+        <div class="about-content">
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7aDkmeg8pr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="about-right">
+            <h2>A BOOK A DAY KEEPS THE BOREDOM AWAY</h2>
+            <hr/>
+            <p>
+              Welcome to the Ninh's bookstore online, the place where you can find books for every taste and interest.
+            </p>
+            <p>
+              This bookstore is owned by Ninh Pho, a really enthusiastic book lover who has a passion for sharing his knowledge and recommendations with others. Whether you are looking for fiction, non-fiction, classics, or new releases, you will find something to suit your needs and preferences here. You can browse through our categories, search by keywords, or ask for suggestions from our friendly staff. You can also join our online community of readers and writers, where you can exchange opinions, reviews, and tips.
+            </p>
+            <p>We hope you enjoy your visit and come back often!</p>
+            <div class="socials">
+              <a href=""> <i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- fiction -->
+
+      <section id="fiction">
+        <h2 class="fiction-header">BEST SELLERS OF FICTION</h2>
+        <div class="fiction">
+          <div>
+            <h3>The Seven Husbands of Evelyn Hugo</h3>
+            <h4>by Taylor Jenkins Reid</h4>
+            <img src="images/book1.jpeg" alt="Best-seller books">
+            <p>
+              "A spellbinding novel about love, glamour and the price of fame." - Publishers Weekly
+            </p>
+            <p>
+              "A mesmerizing journey through the splendor of old Hollywood into the harsh realities of the present day." - Kirkus Reviews
+            </p>
+            <a href="#"><button>More Details ></button></a>
+          </div>
+          <div>
+            <h3>They Both Die At The End</h3>
+            <h4>by Adam Silvera</h4>
+            <img src="images/book2.jpeg" alt="Best-seller books">            
+            <p>
+              "Silvera once again conveys strong messages about love, loss, grief, acceptance, and joy in his work." - Common Sense Media
+            </p>
+            <p>
+              "A moving and thought-provoking novel that reminds us to live every day as if it's our last." - Kirkus Reviews
+            </p>
+            <a href="bookview1.html"><button>More Details ></button></a>
+          </div>
+          <div>
+            <h3>If Cats Disappeared from the World</h3>
+            <h4>by Genki Kawamura</h4>
+            <img src="images/book3.jpeg" alt="Best-seller books">            
+            <p>
+              "A charming, quirky and life-affirming tale that proves kindness really does make all the difference." - The Guardian
+            </p>
+            <p>
+              "A charming and bittersweet tale of what really matters in life." - Publishers Weekly
+            </p>
+            <a href="#"><button>More Details ></button></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- non-fiction -->
+
+      <section id="non-fiction">
+        <h2 class="fiction-header">BEST SELLERS OF NON-FICTION</h2>
+        <div class="fiction">
+          <div>
+            <h3>Outlive</h3>
+            <h4>by Bill Gifford and Peter Attia</h4>
+            <img src="images/book4.jpeg" alt="Best-seller books">
+            <p>
+              "We are stuck in an earlier era of healthcare protocols and health-related habits. A major reset is needed. Life spans may improve thereby." - The Wall Street Journal
+            </p>
+            <a href="#"><button>More Details ></button></a>
+          </div>
+          <div>
+            <h3>Atomic Habits</h3>
+            <h4>by James Clear</h4>
+            <img src="images/book5.jpeg" alt="Best-seller books">            
+            <p>
+              "While I can't say that the information in it is that different from other books I've read on the topic, it's definitely the best breakdown of said info that I've seen." - Books with Emily Fox
+            </p>
+            <a href="#"><button>More Details ></button></a>
+          </div>
+          <div>
+            <h3>Spare</h3>
+            <h4>by Prince Harry, Duke of Sussex</h4>
+            <img src="images/book6.jpeg" alt="Best-seller books">            
+            <p>
+              “At once emotional and embittered, the royal memoir is mired in a paradox: drawing endless attention in an effort to renounce fame.” - The New York Times
+            </p>
+            <p>
+              “By turns sympathetic and absurd, this is a memoir that deals in the tropes of tabloid storytelling even as it lambasts them.” - The Guardian
+            </p>
+            <a href="#"><button>More Details ></button></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+        <h3>NINH'S BOOKSTORE</h3>
+
+          <p class="footer-links">
+              <a href="#">About us</a>
+              |
+              <a href="#">Privacy Policy</a>
+              |
+              <a href="#">Terms</a>
+              |
+              <a href="#">Copyright</a>
+              |
+              <a href="contact.html">Contact us</a>
+          </p>
+
+          <p class="footer-company-name">Copyright © 2023 <strong>NinhPho</strong> All rights reserved</p>
+      </div>
+
+      <div class="footer-center">
+          <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>The District 7</span>
+                  Ho Chi Minh City</p>
+          </div>
+
+          <div>
+              <i class="fa fa-phone"></i>
+              <p>+84 61490615</p>
+          </div>
+          <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:s3978162@rmit.edu.vn">s3978162@rmit.edu.vn</a></p>
+          </div>
+      </div>
+      <div class="footer-right">
+          <p class="footer-company-about">
+              <span>Information</span>
+              <strong>This is</strong> the Assignment 1: Static Web of Web-programming (course COSC2430-Semester A 2023).
+          </p>
+          <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>

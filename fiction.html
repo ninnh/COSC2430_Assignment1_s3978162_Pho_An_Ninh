@@ -1,0 +1,315 @@
+<!-- 
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Pho An Ninh
+ID: s3978162
+Acknowledgement: Acknowledge the resources that you use here. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0e53af926d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <title>Ninh's Bookstore fiction</title>
+  </head>
+  <body>
+
+    <!-- header -->
+
+    <header>
+      <div class="header-container">
+        <h1>NINH'S BOOKSTORE</h1>
+        <nav class="navbar">
+          <input type='checkbox' id='check'/>
+          <span class="menu">
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="fiction.html">FICTION</a></li>
+            <li><a href="non-fiction.html">NON-FICTION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+          </span>
+        </nav>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </div>
+    </header>
+
+    <main>
+      <!-- product -->
+
+      <div class= category-header>
+       <h1>Fiction</h1> 
+      </div>
+
+      <!-- Category 1 -->
+
+      <section id="product">
+        <h2 class="product-header">LITERARY FICTION</h2>
+        <div class="product">
+          <div>
+            <h3>The Kite Runner</h3>
+            <h4>by Khaled Hosseini</h4>
+            <img src="images/product1.jpeg" alt="Book cover">
+            <p class="text-rating">4.9 &#11088 | Sold 50.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$11.68</p>
+            <p class="text-price-sale">$15.5</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>A Little Life</h3>
+            <h4>by Hanya Yanagihara</h4>
+            <img src="images/product2.jpeg" alt="Book cover">
+            <p class="text-rating">5.0 &#11088 | Sold 63.000+<p>
+              <p class="text-bookbinding">Hardback</p>
+            <p class="text-price">$30.99</p>
+            <p class="text-price-sale">$33.99</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Hello Beautiful</h3>
+            <h4>by Ann Napolitano</h4>
+            <img src="images/product3.jpeg" alt="Book cover">
+            <p class="text-rating">4.7 &#11088 | Sold 20.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15</p>
+            <p class="text-price-sale">$16.89</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Of Mice and Men</h3>
+            <h4>by John Steinbeck</h4>
+            <img src="images/product4.jpg" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 42.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$10.68</p>
+            <p class="text-price-sale">$12.35</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Young Mungo</h3>
+            <h4>by Douglas Stuart</h4>
+            <img src="images/product5.jpg" alt="Book cover">
+            <p class="text-rating">4.9 &#11088 | Sold 75.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$19.68</p>
+            <p class="text-price-sale">$20.68</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>On Earth We're Briefly Gorgeous</h3>
+            <h4>by Ocean Vuong</h4>
+            <img src="images/product6.jpeg" alt="Book cover">
+            <p class="text-rating">5.0 &#11088 | Sold 90.000+<p>
+              <p class="text-bookbinding">Hardback</p>
+            <p class="text-price">$30.68</p>
+            <p class="text-price-sale">$35.5</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Circe</h3>
+            <h4>by Madeline Miller</h4>
+            <img src="images/product7.jpeg" alt="Book cover">
+            <p class="text-rating">4.9 &#11088 | Sold 50.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15.68</p>
+            <p class="text-price-sale">$16.5</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>The Gold Finch</h3>
+            <h4>by Donna Tartt</h4>
+            <img src="images/product8.jpg" alt="Book cover">
+            <p class="text-rating">4.7 &#11088 | Sold 50.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$13.68</p>
+            <p class="text-price-sale">$16.5</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Category 2 -->
+
+      <section id="product">
+        <h2 class="product-header">YOUNG ADULTS</h2>
+        <div class="product">
+
+          <div>
+            <h3>They Both Die At The End</h3>
+            <h4>by Adam Silvera
+            </h4>
+            <img src="images/book2.jpeg" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 100.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$14.68</p>
+            <p class="text-price-sale">$15.99</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="bookview1.html"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Simon vs. the Homo Sapiens Agenda</h3>
+            <h4>by Becky Albertalli</h4>
+            <img src="images/ya1.jpg" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 40.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15.99</p>
+            <p class="text-price-sale">$16.99</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>I'll Give You the Sun</h3>
+            <h4>by Jandy Nelson</h4>
+            <img src="images/ya2.jpg" alt="Book cover">
+            <p class="text-rating">4.6 &#11088 | Sold 20.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15</p>
+            <p class="text-price-sale">$16.89</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>The Perks of Being a Wallflower</h3>
+            <h4>by Stephen Chbosky</h4>
+            <img src="images/ya3.jpeg" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 42.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$10.68</p>
+            <p class="text-price-sale">$12.35</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Category 3 -->
+
+      <section id="product">
+        <h2 class="product-header">HISTORICAL FICTION</h2>
+        <div class="product">
+
+          <div>
+            <h3>The Seven Husbands of Evelyn Hugo</h3>
+            <h4>by Taylor Jenkins Reid</h4>
+            <img src="images/book1.jpeg" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 100.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15.99</p>
+            <p class="text-price-sale">$17.99</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="bookview1.html"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>All the Light We Cannot See</h3>
+            <h4>by Anthony Doerr</h4>
+            <img src="images/his1.jpeg" alt="Book cover">
+            <p class="text-rating">4.9 &#11088 | Sold 70.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15.99</p>
+            <p class="text-price-sale">$18.99</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>The Song of Achilles</h3>
+            <h4>by Madeline Miller</h4>
+            <img src="images/his2.jpeg" alt="Book cover">
+            <p class="text-rating">5.0 &#11088 | Sold 80.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15.55</p>
+            <p class="text-price-sale">$16.65</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>A Gentleman in Moscow</h3>
+            <h4>by Amor Towles</h4>
+            <img src="images/histo3.jpeg" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 42.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$11.38</p>
+            <p class="text-price-sale">$12.35</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+        <h3>NINH'S BOOKSTORE</h3>
+
+          <p class="footer-links">
+              <a href="#">About us</a>
+              |
+              <a href="#">Privacy Policy</a>
+              |
+              <a href="#">Terms</a>
+              |
+              <a href="#">Copyright</a>
+              |
+              <a href="contact.html">Contact us</a>
+          </p>
+
+          <p class="footer-company-name">Copyright © 2023 <strong>NinhPho</strong> All rights reserved</p>
+      </div>
+
+      <div class="footer-center">
+          <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>The District 7</span>
+                  Ho Chi Minh City</p>
+          </div>
+
+          <div>
+              <i class="fa fa-phone"></i>
+              <p>+84 61490615</p>
+          </div>
+          <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:s3978162@rmit.edu.vn">s3978162@rmit.edu.vn</a></p>
+          </div>
+      </div>
+      <div class="footer-right">
+          <p class="footer-company-about">
+              <span>Information</span>
+              <strong>This is</strong> the Assignment 1: Static Web of Web-programming (course COSC2430-Semester A 2023).
+          </p>
+          <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>

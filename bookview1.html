@@ -1,0 +1,167 @@
+<!-- 
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Pho An Ninh
+ID: s3978162
+Acknowledgement: Acknowledge the resources that you use here. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0e53af926d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/alphardex/aqua.css/dist/aqua.min.css'>
+    <title>Ninh's Bookstore They Both Die At The End</title>
+  </head>
+  <body>
+
+    <!-- header -->
+
+    <header>
+      <div class="header-container">
+        <h1>NINH'S BOOKSTORE</h1>
+        <nav class="navbar">
+          <input type='checkbox' id='check'/>
+          <span class="menu">
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="fiction.html">FICTION</a></li>
+            <li><a href="non-fiction.html">NON-FICTION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+          </span>
+        </nav>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </div>
+    </header>
+
+   <!-- breadcumb -->
+
+<div>
+  <ul class="breadcrumb">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="fiction.html">Fiction</a></li>
+      <li><a href="bookview1.html">They Both Die At The End</a></li>
+    </ul>
+</div>
+
+<!-- book view  -->
+
+<main>
+  <div class = "main-wrapper">
+      <div class = "container">
+          <div class = "book-div">
+              <div class = "book-div-left">
+                  <div class = "img-container">
+                      <img src = "images/bookview1.jpeg" alt = "Book">
+                  </div>
+              </div>
+              <div class = "book-div-right">
+                  <div class = "hover-container">
+                      <div><img src = "images/bookview2.webp"alt = "Book"></div>
+                      <div><img src = "images/bookview4.jpeg"alt = "Book"></div>
+                      <div><img src = "images/bookview3.png"alt = "Book"></div>
+                  </div>
+                  <div class = "price-group">
+                      <span class = "book-price-sale">$ 15.99</span>
+                      <span class = "book-price">$ 14.68</span>
+                      <div class = "book-rating">
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star-half-alt"></i></span>
+                          <span>(1000+ ratings)</span>
+                      </div>
+                      <div class = "btn-groups">
+                          <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>add to cart</button>
+                          <button type = "button" class = "buy-now-btn"><i class = "fas fa-wallet"></i>buy now</button>
+                      </div>
+                  </div>
+              </div>
+          <div class = "book-information">
+              <h1>They Both Die At The End</h1>
+              <h3>by Adam Silvera</h3>
+          </div>
+          </div>
+      </div>
+  </div>
+  <div class="book-description">
+      <h2>Book Description</h2>
+      <p><b>Adam Silvera reminds us that there's no life without death and no love without loss in this devastating yet uplifting story about two people whose lives change over the course of one unforgettable day.</b></p>
+      <p><b>New York Times bestseller * 4 starred reviews * A School Library Journal Best Book of the Year * A Kirkus Best Book of the Year * A Booklist Editors' Choice of 2017 * A Bustle Best YA Novel of 2017 * A Paste Magazine Best YA Book of 2017 * A Book Riot Best Queer Book of 2017 * A Buzzfeed Best YA Book of the Year * A BookPage Best YA Book of the Year</b></p>
+      <p>On September 5, a little after midnight, Death-Cast calls Mateo Torrez and Rufus Emeterio to give them some bad news: They’re going to die today.</p>
+      <p>Mateo and Rufus are total strangers, but, for different reasons, they’re both looking to make a new friend on their End Day. The good news: There’s an app for that. It’s called the Last Friend, and through it, Rufus and Mateo are about to meet up for one last great adventure—to live a lifetime in a single day.</p>
+      <p>In the tradition of <i>Before I Fall</i> and <i>If I Stay</i>, <i>They Both Die at the End</i> is a tour de force from acclaimed author Adam Silvera, whose debut, <i>More Happy Than Not</i>, the New York Times called “profound.”</p>
+      <p><b>Plus don't miss <i>The First to Die at the End</i> #1 New York Times bestselling author Adam Silvera returns to the universe of international phenomenon They Both Die at the End in this prequel. New star-crossed lovers are put to the test on the first day of Death-Cast’s fateful calls.</b></p>
+  </div>
+</main>
+
+    <!-- footer -->
+
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+          <h3>NINH'S BOOKSTORE</h3>
+
+          <p class="footer-links">
+              <a href="#">About us</a>
+              |
+              <a href="#">Privacy Policy</a>
+              |
+              <a href="#">Terms</a>
+              |
+              <a href="#">Copyright</a>
+              |
+              <a href="#">Contact us</a>
+          </p>
+
+          <p class="footer-company-name">Copyright © 2023 <strong>NinhPho</strong> All rights reserved</p>
+      </div>
+
+      <div class="footer-center">
+          <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>The District 7</span>
+                  Ho Chi Minh City</p>
+          </div>
+
+          <div>
+              <i class="fa fa-phone"></i>
+              <p>+84 61490615</p>
+          </div>
+          <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:s3978162@rmit.edu.vn">s3978162@rmit.edu.vn</a></p>
+          </div>
+      </div>
+      <div class="footer-right">
+          <p class="footer-company-about">
+              <span>Information</span>
+              <strong>This is</strong> the Assignment 1: Static Web of Web-programming (course COSC2430-Semester A 2023).
+          </p>
+          <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>

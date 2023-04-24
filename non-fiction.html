@@ -1,0 +1,316 @@
+<!-- 
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Pho An Ninh
+ID: s3978162
+Acknowledgement: Acknowledge the resources that you use here. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0e53af926d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <title>Ninh's Bookstore non-fiction</title>
+  </head>
+  <body>
+
+    <!-- header -->
+
+    <header>
+      <div class="header-container">
+        <h1>NINH'S BOOKSTORE</h1>
+        <nav class="navbar">
+          <input type='checkbox' id='check'/>
+          <span class="menu">
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="fiction.html">FICTION</a></li>
+            <li><a href="non-fiction.html">NON-FICTION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+          </span>
+        </nav>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </div>
+    </header>
+
+    <main>
+      <!-- product -->
+
+      <div class= category-header>
+       <h1>Non-fiction</h1> 
+      </div>
+
+      <!-- Category 1 -->
+
+      <section id="product">
+        <h2 class="product-header">BIOGRAPHIES & MEMOIRS</h2>
+        <div class="product">
+          <div>
+            <h3>Spare</h3>
+            <h4>by Prince Harry, Duke of Sussex</h4>
+            <img src="images/book6.jpeg" alt="Book cover">
+            <p class="text-rating">4.6 &#11088 | Sold 100.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15.68</p>
+            <p class="text-price-sale">$17.89</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Surrender</h3>
+            <h4>by Bono</h4>
+            <img src="images/bio1.jpeg" alt="Book cover">
+            <p class="text-rating">5.0 &#11088 | Sold 45.000+<p>
+              <p class="text-bookbinding">Hardback</p>
+            <p class="text-price">$30.99</p>
+            <p class="text-price-sale">$33.99</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Fining Me</h3>
+            <h4>by Viola Davis</h4>
+            <img src="images/bio2.jpg" alt="Book cover">
+            <p class="text-rating">4.9 &#11088 | Sold 20.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15.55</p>
+            <p class="text-price-sale">$16.89</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Solito: A Memoir</h3>
+            <h4>by Javier Zamora</h4>
+            <img src="images/bio3.png" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 20.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$10.68</p>
+            <p class="text-price-sale">$12.35</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Into the Wild</h3>
+            <h4>by Jon Krakauer</h4>
+            <img src="images/bio4.png" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 75.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$19.68</p>
+            <p class="text-price-sale">$20.68</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Educated</h3>
+            <h4>Tara Westover</h4>
+            <img src="images/bio5.jpeg" alt="Book cover">
+            <p class="text-rating">4.7 &#11088 | Sold 60.000+<p>
+              <p class="text-bookbinding">Hardback</p>
+            <p class="text-price">$30.68</p>
+            <p class="text-price-sale">$35.5</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Page Boy</h3>
+            <h4>by Elliot Page</h4>
+            <img src="images/bio6.jpg" alt="Book cover">
+            <p class="text-rating">4.9 &#11088 | Sold 50.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15.68</p>
+            <p class="text-price-sale">$16.5</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Sontag: Her Life and Work</h3>
+            <h4>by Benjamin Moser</h4>
+            <img src="images/bio7.jpeg" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 20.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$13.68</p>
+            <p class="text-price-sale">$16.5</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Category 2 -->
+
+      <section id="product">
+        <h2 class="product-header">SELF HELP</h2>
+        <div class="product">
+
+          <div>
+            <h3>Outlive</h3>
+            <h4>by Peter Attia, Bill Gilford</h4>
+            <img src="images/book4.jpeg" alt="Book cover">
+            <p class="text-rating">4.7 &#11088 | Sold 90.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$14.68</p>
+            <p class="text-price-sale">$15.99</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Atomic Habits</h3>
+            <h4>by James Clear</h4>
+            <img src="images/book5.jpeg" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 90.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15.99</p>
+            <p class="text-price-sale">$16.99</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>Good Vibes, Good Life</h3>
+            <h4>by Vex King</h4>
+            <img src="images/help1.jpeg" alt="Book cover">
+            <p class="text-rating">4.6 &#11088 | Sold 20.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$15</p>
+            <p class="text-price-sale">$16.89</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>The Secret</h3>
+            <h4>by Rhonda Byrne</h4>
+            <img src="images/help2.png" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 42.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$10.68</p>
+            <p class="text-price-sale">$12.35</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          
+        </div>
+      </section>
+
+       <!-- Category 3 -->
+
+       <section id="product">
+        <h2 class="product-header">COOKING & FOOD</h2>
+        <div class="product">
+
+          <div>
+            <h3>How To Cook Everything</h3>
+            <h4>by Mark Bittman</h4>
+            <img src="images/cook1.webp" alt="Book cover">
+            <p class="text-rating">4.7 &#11088 | Sold 90.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$10.68</p>
+            <p class="text-price-sale">$12.99</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>The Easiest Air Fryer Book Ever</h3>
+            <h4>by Kim McCosker</h4>
+            <img src="images/cook2.jpeg" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 50.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$10.99</p>
+            <p class="text-price-sale">$12.89</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>All Day Cook Book</h3>
+            <h4>by Emma Goss-Curtard</h4>
+            <img src="images/cook3.webp" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 20.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$11</p>
+            <p class="text-price-sale">$12.89</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          <div>
+            <h3>A Bad Hair Day Cook Book</h3>
+            <h4>by Nancy J. Cohen</h4>
+            <img src="images/cook4.jpg" alt="Book cover">
+            <p class="text-rating">4.8 &#11088 | Sold 15.000+<p>
+              <p class="text-bookbinding">Paperback</p>
+            <p class="text-price">$10.68</p>
+            <p class="text-price-sale">$12.35</p>
+            <a href="#"><button class="button-cart">Add to cart</button></a>
+            <a href="#"><button class="button-details">More Details</button></a>
+          </div>
+          
+        </div>
+      </section>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+        <h3>NINH'S BOOKSTORE</h3>
+
+          <p class="footer-links">
+              <a href="#">About us</a>
+              |
+              <a href="#">Privacy Policy</a>
+              |
+              <a href="#">Terms</a>
+              |
+              <a href="#">Copyright</a>
+              |
+              <a href="contact.html">Contact us</a>
+          </p>
+
+          <p class="footer-company-name">Copyright © 2023 <strong>NinhPho</strong> All rights reserved</p>
+      </div>
+
+      <div class="footer-center">
+          <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>The District 7</span>
+                  Ho Chi Minh City</p>
+          </div>
+
+          <div>
+              <i class="fa fa-phone"></i>
+              <p>+84 61490615</p>
+          </div>
+          <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:s3978162@rmit.edu.vn">s3978162@rmit.edu.vn</a></p>
+          </div>
+      </div>
+      <div class="footer-right">
+          <p class="footer-company-about">
+              <span>Information</span>
+              <strong>This is</strong> the Assignment 1: Static Web of Web-programming (course COSC2430-Semester A 2023).
+          </p>
+          <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
